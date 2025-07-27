@@ -1,0 +1,12 @@
+# Ignore environment variables and Firebase secrets
+.env
+firebase-credentials.json
+inputs.txt
+
+# Streamlit artifacts
+.streamlit/
+__pycache__/
+*.pyc
+
+# VSCode settings (optional)
+.vscode/
