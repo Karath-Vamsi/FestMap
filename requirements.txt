@@ -3,3 +3,4 @@ crewai
 langchain_community
 python-dotenv
 firebase-admin
+pysqlite3-binary

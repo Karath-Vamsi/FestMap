@@ -1,9 +1,14 @@
+import sys
+import pysqlite3
+
 import streamlit as st
 from datetime import datetime
 import re
 
 from agents.extractor_agent import extract_festival_data
 from src.firebase_service import save_festival_data
+
+sys.modules["sqlite3"] = pysqlite3
 
 st.set_page_config(
     page_title="FestMap - Telugu Festival Preservation",
