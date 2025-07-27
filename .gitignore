@@ -2,6 +2,7 @@
 .env
 firebase-credentials.json
 inputs.txt
+.devcontainer/
 
 # Streamlit artifacts
 .streamlit/
